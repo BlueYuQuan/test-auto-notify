@@ -6,5 +6,8 @@ MAINTAINER 441452752@qq.com
 COPY . /usr/src/myapp
 #为后续的RUN,CMD,ENTRYPOINT指令配置工作目录
 WORKDIR /usr/src/myapp
+
+testbug
+
 #指定启动容器时执行的命令--启动程序
 CMD ["python", "test-auto-notify.py"]
