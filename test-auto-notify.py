@@ -2,6 +2,7 @@
 
 def main():
     print("test1")
+    print("test2")
 
 if __name__ == "__main__":
 
